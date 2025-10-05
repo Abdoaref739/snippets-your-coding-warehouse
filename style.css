@@ -1,0 +1,373 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/RUSTICROADWAY.otf') format('opentype');
+
+}
+@font-face {
+    font-family: 'MyCustomFont2';
+  src: url('fonts/Kugile_Demo.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'MyCustomFont3';
+  src: url('fonts/SecondQuotes-Regular.otf') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #023020;
+    overflow-x: hidden;
+    transition: 0.7s ease;
+}
+.upper-container{
+    width: 100%;
+    height: 790px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+#circle1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 104, 12);
+    opacity: 30%;
+    border-radius: 100px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+#circle2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 104, 12);
+    opacity: 30%;
+    border-radius: 100px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    margin-top: 500px;
+    margin-left: 10%;
+}
+#circle3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 187, 0);
+    opacity: 30%;
+    border-radius: 100px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    margin-top: 200px;
+    margin-left: 70%;
+}
+#circle4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(67, 248, 67);
+    opacity: 30%;
+    border-radius: 100px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    margin-top: 500px;
+    margin-left: 95%;
+}
+.main-text{
+    position: absolute;
+     font-family: 'MyCustomFont', sans-serif;
+     z-index: 1;
+     font-size: 50px;
+     margin-left: 15%;
+     margin-top: 200px;
+    color: white;
+}
+.website-name{
+    position: absolute;
+    color: #FDEB9E;
+    font-family: 'MyCustomFont2', sans-serif;
+    margin-top: 250px;
+    margin-left: 20%;
+    font-size: 60px;
+}
+#star-image{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 220px;
+    margin-left: 37%;
+}
+.quote-div{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 50%;
+    border: 3px solid white;
+    border-radius: 25px;
+}
+#quote-left{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+#quote-text{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 30%;
+    font-family: 'MyCustomFont3', sans-serif;
+}
+#quote-right{
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    margin-top: 35%;
+    margin-left: 80%;
+}
+#quote-author{
+    font-size: 20px;
+    color: white;
+    margin-top: 50%;
+    margin-left: 70%;
+    font-family:'Times New Roman', Times, serif ;
+}
+#scrolldown-button{
+    position: absolute;
+    width: 20%;
+    height: 55px;
+    background-color: #007000;
+    color: white;
+    border: 1px solid green;
+    font-size: 20px;
+    font-family: 'MyCustomFont3', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 390px;
+    margin-left: 15%;
+}
+#scrolldown-button:hover{
+    background-color: transparent;
+    border-color: #FDEB9E;
+    border-width: 3px;
+    color: #FDEB9E;
+    transition: 0.7s ease;
+}
+.daily-quote-title{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    font-family: 'MyCustomFont3', sans-serif;
+    margin-top: 110px;
+    margin-left: 60%;
+}
+#wave-image{
+    position: absolute;
+    margin-top: 755px;
+}
+.middle-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 20px;
+    z-index: -1;
+}
+.middle-container-title{
+    position: absolute;
+    display: grid;
+    color: white;
+    font-family: 'MyCustomFont', sans-serif;
+    margin-top: -750px;
+    margin-left: -280px;
+}
+.ref1-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin-top: -30px;
+    border: 3px solid limegreen;
+    border-radius: 15px;
+    margin-left: -820px;
+}
+.ref2-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin-top: -30px;
+    border: 3px solid limegreen;
+    border-radius: 15px;
+    margin-left: 0;
+    
+}
+.ref3-div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin-top: -30px;
+    border: 3px solid limegreen;
+    border-radius: 15px;
+    margin-left: 820px;
+    
+}
+.ref1-title{
+    position: absolute;
+    margin-top: 70px;
+    font-size: 33px;
+    font-family: 'MyCustomFont3', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.ref1-description{
+    position: absolute;
+    margin-top: 140px;
+    font-size: 20px;
+    font-family: 'MyCustomFont3', sans-serif;
+    color: white;
+}
+
+
+#snippets-button{
+    width: 70%;
+    height: 50px;
+    background-color: #007000;
+    color: white;
+    font-size: 18px;
+    font-family: 'MyCustomFont3', sans-serif;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 200px;
+    cursor: pointer;
+}
+#snippets-button:hover{
+    background-color: transparent;
+    color: white;
+    background-color: rgb(0, 107, 0);
+    border: 2px solid rgb(0, 107, 0);
+    transition: 0.7s ease;
+}
+.ref1-div:hover{
+background-color: #00700062;
+width: 352px;
+height: 352px; transition: 0.7s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px){
+    .main-text{
+        margin-left: 5%;
+    }
+    .website-name{
+        margin-left: 10%;
+    }
+    #scrolldown-button{
+        margin-left: 10%;
+    }
+    .quote-div{
+        width: 330px;
+        height: 200px;
+        margin-top: 200px;
+
+    }
+    #quote-left{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #quote-right{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+    
+}
+@media screen and (max-width: 850px){
+.quote-div{
+    width: 400px;
+    height: 190px;
+    margin-left: 23%;
+    margin-top: 530px;
+}
+#quote-left{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#quote-right{
+    font-size: 35px;
+    margin-top: 130px;
+    margin-left: 340px;
+}
+#quote-text{
+    font-size: 25px;
+    margin-top: 80px;
+
+}
+#quote-author{
+    font-size: 15px;
+    margin-top: 160px;
+}
+.main-text{
+    margin-left: 24%;
+}
+.website-name{
+    margin-left: 28%;
+}
+#star-image{
+    margin-left: 66%;
+}
+#scrolldown-button{
+    width: 50%;
+    margin-left: 25%;
+
+}
+.ref1-div{
+    width: 300px;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: -250px;
+}
+.ref2-div{
+    width: 300px;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 450px;
+}
+.ref3-div{
+    width: 300px;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 1150px;
+}
+.daily-quote-title{
+    margin-top: 480px;
+    margin-left: 23%;
+
+}
+}
+
+@media screen  and (max-width: 500px){
+    .quote-div{
+        margin-left: 8%;
+    }
+    
+}

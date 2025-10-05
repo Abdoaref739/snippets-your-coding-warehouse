@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snippets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/images/folder.png">
+</head>
+<body>
+    <div class="upper-container">
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+        <h1 class="main-text">welcome to</h1>
+        <h1 class="website-name">snippets</h1>
+        <img src="./images/star (2).png" id="star-image">
+        <div id="circle3"></div>
+        <div id="circle4"></div>
+        <h1 class="daily-quote-title">- Quote of the day! -</h1>
+        <div class="quote-div">
+            <i class="fa-solid fa-quote-left" id="quote-left"></i>
+            <h1 id="quote-text">hello, world!</h1>
+            <i class="fa-solid fa-quote-right" id="quote-right"></i>
+            <h1 id="quote-author">Aref</h1>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="wave-image">
+  <path fill="#007000" fill-opacity="1" d="M0,160L120,154.7C240,149,480,139,720,154.7C960,171,1200,213,1320,234.7L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+</svg>
+        <button id="scrolldown-button">scroll down!</button>
+    </div>
+    <div class="middle-container">
+        <h1 class="middle-container-title">Discover some snippets!</h1>
+        <div class="ref1-div">
+            <h1 class="ref1-title">HTML snippets</h1>
+            <h5 class="ref1-description">I was made by it!</h5>
+            <button id="snippets-button">go to snippets page</button>
+        </div>
+
+        <div class="ref2-div">
+            <h1 class="ref1-title">CSS snippets</h1>
+            <h5 class="ref1-description">My wear and fashion</h5>
+            <button id="snippets-button">go to snippets page</button>
+        </div>
+
+        <div class="ref3-div">
+            <h1 class="ref1-title">JavaScript snippets</h1>
+            <h5 class="ref1-description">My brain that makes me be abale to move</h5>
+            <button id="snippets-button">go to snippets page</button>
+        </div>
+    </div>
+    <script>
+        let scrollDownButton = document.getElementById("scrolldown-button");
+        scrollDownButton.addEventListener("click", function(){
+            window.scrollTo(0, 800);
+          })
+    </script>
+</body>
+</html>
